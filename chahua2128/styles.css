@@ -217,6 +217,14 @@ margin: 0 auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+#left-cert{
+	width: 80%;
+	height: 100%;
+	margin-left: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	align-content: center;
+}
 #right {
 	/* width: 30%; */
 	flex: 1;
