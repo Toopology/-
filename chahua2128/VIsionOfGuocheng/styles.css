@@ -210,12 +210,30 @@ margin: 0 auto;
 	border: 2px solid darkslategray;
 	border-radius: 20px;
 }
+#page-tb {
+	width: 1200px;
+	margin: 0 auto;
+	background: #ffffff top;
+	margin-top: 15px;
+	display: flex;
+
+	border: 2px solid darkslategray;
+	border-radius: 20px;
+}
+#left-tb {
+	width: 80%;
+	height: 100%;
+	margin-left: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 #left {
 	width: 80%;
 	height: 100%;
 	margin-left: 40px;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	color: black;
 }
 #left-cert{
 	width: 80%;
@@ -226,6 +244,11 @@ margin: 0 auto;
 	align-content: center;
 }
 #right {
+	/* width: 30%; */
+	flex: 1;
+	margin: 20px;
+}
+#right-tb {
 	/* width: 30%; */
 	flex: 1;
 	margin: 20px;
