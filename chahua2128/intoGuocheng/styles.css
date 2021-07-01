@@ -211,6 +211,14 @@ margin: 0 auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+#left .gridco{
+	display: grid;
+	grid: 100% / 30% 70% ;
+	grid-gap: 10px;
+}
+#left .gridco>div{
+	text-align: left;
+}
 #left p{
 	font-size: 16px;
 	line-height: 25px;
