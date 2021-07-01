@@ -276,9 +276,10 @@ margin: 0 auto;
 }
 
 #right {
-	/* width: 30%; */
+	width: 20%;
 	flex: 1;
 	margin: 20px;
+	height: 90%;
 }
 
 #top
