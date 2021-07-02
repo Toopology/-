@@ -83,111 +83,72 @@ margin: 0 auto;
 
 /* Header */
 
-#header {
+#header1 {
 	width: 100%;
 	margin: 0 auto;
-	background-color: #F72212;
+	background-color: #d11e13;
 	height: 155px;
 }
-#menu2 {
-	height: 20px;
-	width: 100%;
-	background: url(../images/menu.gif) ;
-	text-align: center;
-}
 
-#menu {
-	width: 100%;
-	margin: 0 auto;
-	text-align: center;
-	align-items: center;
-	display: flex;
-	justify-content: center;
-}
-
-#menu a {
-	display: block;
-	float: left;
-	height: 36px;
-	width: 115px;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 18px;;
-	font-weight: bold;
-	color: #ffffff;
-	padding-top: 16px;
+.main1{
+        overflow: auto;
+        text-align: center;
+        width:100%;    
+		background-color:#c65d55;
+		
+            }
+.main1 a{
+    text-decoration: none;
+    display: inline-block;
+    height: 36px;
+    width: 115px;
+    color: white;
+	font-size: 18px;
+    color: #ffffff;
+    padding-top: 16px;
     text-align: center;
-}
-#menu ul  {
+	background: url(../images/navcut.png) no-repeat 0 50%;
+    }
+        
+.main1 ul{
 	list-style: none;
-}
-.menu_one{
+        }
+
+.list{
 	display: inline-block;
     margin: 0px;
     padding: 0px;
     vertical-align: bottom;
-}
-.menu_one>li {
-	float: left;
-}
-
-.menu_one>li>ul{
-    display: none;
-    position: absolute;
-}
-.menu_one>li:hover ul{
+    }
+.list>li{
+    float: left;
+    }
+.list>li>ul{
+        display: none;
+        position: absolute;
+		margin-left: 0px;
+		opacity: 0.8;
+		background-color: #c65d55;
+		width: 160px;
+        }
+.list>li:hover ul{
         display: block;
-        margin: 0px;
-	    background-color: #F72212;
-	    margin-top: 52px;
-}
-.menu_one>li:hover ul>li{
-        display: block;
-        margin: 0px;
-}
-#menu a:hover {
-	color: #FFFFFF;
-	background: url(../images/menu_r.gif) ;
-}
+        }
+.header1 a:hover {
+        background-color: #FFFFFF;
+		opacity: 0.9;
+		color: #000000;
+		border-bottom: 3px solid burlywood;
+        }      
 
-/* Logo */
 
-/* #logo2 {
+
+ #logo1 {
 	width: 100%;
-	min-width: 900px;
-	height: 317px;
-	background: url(images/header2.gif) no-repeat right top;
-} */
-
-
-/* #logo1 {
-	width: 100%;
-	min-width: 900px;
-	height: 250px;
+	height: 100px;
 	margin: 0 auto;
-	text-align: center;
-	padding-top: 67px;
-	background: url(images/header1.gif) no-repeat left top;
-} */
-
-
-#logo1 h1 {
-	padding-right: 20px;
-	color: #ffffff;
-	padding-top: 20px;
-	font-size: 26px;
-}
-
-#logo1 h2 {
-	font-style: italic;
-	font-size: 10px;
-	padding-right: 20px;
-}
-
-
-#logo1 a {
-	color: #FFFFFF;
-}
+	
+} 
 
 /* Page */
 
