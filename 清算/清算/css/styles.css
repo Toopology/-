@@ -82,7 +82,8 @@ margin: 0 auto;
 .header{
 	width: 100%;
 	margin: 0 auto;
-	height: 310px;
+	height: 307px;
+	background-color: #FF6600;
 }
 .top_bar{
 	background: url(../images/tbg.gif);
@@ -157,6 +158,7 @@ margin: 0 auto;
 	width: 100%;
 	height: 200px;
 	margin: 0 auto;
+	background-color: #000000;
 	
 } 
 
@@ -456,19 +458,20 @@ color: #FFFFFF
 .slide {
     position: relative;
     margin: auto;
-    width: 1004px;
+    width: 1215px;
     height: 100%;
     text-align: center;
     font-family: Arial;
     color: #FFF;
     overflow: hidden;
+
 }
 
 .slide ul {
-    margin: 10px 0;
+    
     padding: 0;
     width: 9999px;
-    transition: all 0.5s;
+    transition: all 0.1s;
 }
 
 /*//自动播放*/
@@ -478,8 +481,8 @@ color: #FFFFFF
 
 .slide li {
     float: left;
-    width: 1004px;
-    height: 100%;
+    width: 1215px;
+    height: 200px;
     list-style: none;
     line-height: 100%;
     font-size: 36px;
@@ -507,19 +510,19 @@ color: #FFFFFF
     }
 
     33.3% {
-        margin-left: -1004px;
+        margin-left: -1215px;
     }
 
     62% {
-        margin-left: -1004px;
+        margin-left: -1215px;
     }
 
     66.7% {
-        margin-left: -2008px;
+        margin-left: -2430px;
     }
 
     95.2% {
-        margin-left: -2008px;
+        margin-left: -2430px;
     }
 
     100% {
