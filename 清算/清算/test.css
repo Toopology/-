@@ -1,0 +1,73 @@
+.slide {
+    position: relative;
+    margin: auto;
+    width: 1004px;
+    height: 200px;
+    text-align: center;
+    font-family: Arial;
+    color: #FFF;
+    overflow: hidden;
+}
+
+.slide ul {
+    margin: 10px 0;
+    padding: 0;
+    width: 9999px;
+    transition: all 0.5s;
+}
+
+/*//自动播放*/
+.slide .slide-auto {
+    animation: marginLeft 10.5s infinite;
+}
+
+.slide li {
+    float: left;
+    width: 1004px;
+    height: 200px;
+    list-style: none;
+    line-height: 200px;
+    font-size: 36px;
+}
+
+.slide li:nth-child(1) {
+    background-image:url(/images/pic1\ \(1\).jpg),;
+}
+
+.slide li:nth-child(2) {
+    background-image:url(/images/pic1\ \(2\).jpg);
+}
+
+.slide li:nth-child(3) {
+    background-image:url(/images/pic1\ \(3\).jpg);
+}
+
+@keyframes marginLeft {
+    0% {
+        margin-left: 0;
+    }
+
+    28.5% {
+        margin-left: 0;
+    }
+
+    33.3% {
+        margin-left: -1004px;
+    }
+
+    62% {
+        margin-left: -1004px;
+    }
+
+    66.7% {
+        margin-left: -2008px;
+    }
+
+    95.2% {
+        margin-left: -2008px;
+    }
+
+    100% {
+        margin-left: 0;
+    }
+}
